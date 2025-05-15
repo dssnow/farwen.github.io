@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Wiki</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="C:\source\website\fantasy-wiki\css\styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap" rel="stylesheet">
+</head>
+<body class="bg-purple-900 text-gray-100 min-h-screen flex flex-col">
+
+    <header class="bg-purple-800 text-white p-4 shadow-md">
+        <h1 class="text-3xl font-bold font-serif tracking-wide"><a href="C:\source\website\fantasy-wiki\index.html"><i class="bi bi-gem"></i> Farwen</a></h1>
+        <nav class="mt-2 flex items-center space-x-4 relative">
+            <a href="C:\source\website\fantasy-wiki\index.html" class="hover:underline">Home</a>
+            <a href="C:\source\website\fantasy-wiki\pages\about.html" class="hover:underline">About</a>
+            <div class="relative group inline-block">
+                <a href="C:\source\website\fantasy-wiki\pages\locations.htmll" class="hover:underline flex items-center">
+                    Locations
+                    <i class="bi bi-caret-down-fill ml-1"></i>
+                </a>
+                <ul class="absolute left-0 mt-1 w-40 bg-gray-100 text-gray-900 rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto pointer-events-none transition-opacity duration-200 z-10">
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\greyreach.html" class="block px-4 py-2 hover:bg-purple-100">Greyreach</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\northshore.html" class="block px-4 py-2 hover:bg-purple-100">Northshore</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\orastead.html" class="block px-4 py-2 hover:bg-purple-100">Orastead</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\burcliff.html" class="block px-4 py-2 hover:bg-purple-100">Burcliff</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\cragvale.html" class="block px-4 py-2 hover:bg-purple-100">Cragvale</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\cristalla.html" class="block px-4 py-2 hover:bg-purple-100">Cristalla</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\eighsea.html" class="block px-4 py-2 hover:bg-purple-100">Eighsea</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\farewood.html" class="block px-4 py-2 hover:bg-purple-100">Farewood</a></li>
+                </ul>
+            </div>
+            <div class="relative group inline-block">
+                <a href="pages/races.html" class="hover:underline flex items-center">
+                    Races
+                    <i class="bi bi-caret-down-fill ml-1"></i>
+                </a>
+                <ul class="absolute left-0 mt-1 w-40 bg-gray-100 text-gray-900 rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto pointer-events-none transition-opacity duration-200 z-10">
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\anahdiel.html" class="block px-4 py-2 hover:bg-purple-100">Anah'diel (Snow Elves)</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\taldiel.html" class="block px-4 py-2 hover:bg-purple-100">Tal'diel (Mountain Elves)</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\varkir.html" class="block px-4 py-2 hover:bg-purple-100">Varkir</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\human.html" class="block px-4 py-2 hover:bg-purple-100">Human</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\cania.html" class="block px-4 py-2 hover:bg-purple-100">Cania</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\cristallan.html" class="block px-4 py-2 hover:bg-purple-100">Cristallan</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\halfraces.html" class="block px-4 py-2 hover:bg-purple-100">Half Races</a></li>
+                </ul>
+            </div>
+            <div class="relative group inline-block">
+                <a href="pages/races.html" class="hover:underline flex items-center">
+                    Creatures
+                    <i class="bi bi-caret-down-fill ml-1"></i>
+                </a>
+                <ul class="absolute left-0 mt-1 w-40 bg-gray-100 text-gray-900 rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto pointer-events-none transition-opacity duration-200 z-10">
+                    <li><a href="pages/locations/dragonkin.html" class="block px-4 py-2 hover:bg-purple-100">Dragonkin</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="flex flex-1">
+        <!-- Main content area -->
+        <main class="flex-1 p-8 bg-gray-100 bg-opacity-90 text-gray-900">
+            <h2 class="text-3xl font-bold font-serif text-purple-900 mb-4">Greyreach</h2>
+            <div class="flex flex-col md:flex-row gap-8">
+                <!-- Left: Description and sections -->
+                <div class="flex-1">
+                    <section class="mb-6">
+                        <h3 class="text-xl font-semibold text-purple-900 mb-2">Overview</h3>
+                        <p>
+                            Greyreach is a sprawling city nestled between misty mountains and ancient forests. Known for its towering stone walls and bustling markets, it serves as a hub of trade and culture in the region.
+                        </p>
+                    </section>
+                    <section class="mb-6">
+                        <h3 class="text-xl font-semibold text-purple-900 mb-2">History</h3>
+                        <p>
+                            Founded centuries ago by mountain clans, Greyreach has weathered wars, plagues, and political intrigue. Its resilience is legendary among neighboring realms.
+                        </p>
+                    </section>
+                    <section class="mb-6">
+                        <h3 class="text-xl font-semibold text-purple-900 mb-2">Notable Features</h3>
+                        <ul class="list-disc list-inside">
+                            <li>The Silver Market</li>
+                            <li>Highstone Keep</li>
+                            <li>The Whispering Woods</li>
+                        </ul>
+                    </section>
+                </div>
+                <!-- Right: Infobox -->
+                <aside class="w-full md:w-80 flex-shrink-0 bg-white bg-opacity-80 rounded-lg shadow p-4">
+                    <!-- Title of City-->
+                     <h2 class="text-xl font-semi-bold text-purple-900 text-center mb-2">Greyreach</h2>
+                    <!-- City Image -->
+                    <div class="mb-4">
+                        <img src="../../images/greyreach_city.jpg" alt="Greyreach City" class="w-full h-40 object-cover rounded border border-gray-300 shadow">
+                    </div>
+                    <!-- Flag Image -->
+                    <div class="mb-4 flex justify-center">
+                        <img src="../../images/greyreach_flag.png" alt="Greyreach Flag" class="h-16 object-contain rounded">
+                    </div>
+                    <!-- Statistics -->
+                    <div>
+                        <h4 class="text-lg font-bold text-purple-900 mb-2">City Statistics</h4>
+                        <table class="w-full text-sm">
+                            <tr>
+                                <td class="font-semibold text-gray-700">Founded</td>
+                                <td>Year 12</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold text-gray-700">Population</td>
+                                <td>???</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold text-gray-700">Region</td>
+                                <td>Northlands</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold text-gray-700">Ruler</td>
+                                <td>Alfry VI, the Grey King</td>
+                            </tr>
+                            <tr>
+                                <td class="font-semibold text-gray-700">Known for</td>
+                                <td>Royalty, Stonemasons, Diversity</td>
+                            </tr>
+                        </table>
+                    </div>
+                </aside>
+            </div>
+            <!-- Additional sections below -->
+            <section class="mt-8">
+                <h3 class="text-xl font-semibold text-purple-900 mb-2">Culture</h3>
+                <p>
+                    Greyreach is famous for its annual Moonfire Festival and its diverse population of artisans, merchants, and scholars.
+                </p>
+            </section>
+            <section class="mt-6">
+                <h3 class="text-xl font-semibold text-purple-900 mb-2">Geography</h3>
+                <p>
+                    The city is surrounded by the Whispering Woods to the east and the Ironspine Mountains to the west, making it both a natural fortress and a crossroads for travelers.
+                </p>
+            </section>
+        </main>
+    </div>
+
+    <footer class="bg-purple-800 text-white text-center p-4 mt-auto shadow-inner">
+        <p>&copy; 2025 Fantasy Wiki. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

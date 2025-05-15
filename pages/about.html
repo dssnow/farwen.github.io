@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantasy Wiki</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="C:\source\website\fantasy-wiki\css\styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cal+Sans&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tagesschrift&display=swap" rel="stylesheet">
+</head>
+<body class="bg-purple-900 text-gray-100 min-h-screen flex flex-col">
+
+    <header class="bg-purple-800 text-white p-4 shadow-md">
+        <h1 class="text-3xl font-bold font-serif tracking-wide"><a href="C:\source\website\fantasy-wiki\index.html"><i class="bi bi-gem"></i> Farwen</a></h1>
+        <nav class="mt-2 flex items-center space-x-4 relative">
+            <a href="C:\source\website\fantasy-wiki\index.html" class="hover:underline">Home</a>
+            <a href="C:\source\website\fantasy-wiki\pages\about.html" class="hover:underline">About</a>
+            <div class="relative group inline-block">
+                <a href="C:\source\website\fantasy-wiki\pages\locations.htmll" class="hover:underline flex items-center">
+                    Locations
+                    <i class="bi bi-caret-down-fill ml-1"></i>
+                </a>
+                <ul class="absolute left-0 mt-1 w-40 bg-gray-100 text-gray-900 rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto pointer-events-none transition-opacity duration-200 z-10">
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\greyreach.html" class="block px-4 py-2 hover:bg-purple-100">Greyreach</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\northshore.html" class="block px-4 py-2 hover:bg-purple-100">Northshore</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\orastead.html" class="block px-4 py-2 hover:bg-purple-100">Orastead</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\burcliff.html" class="block px-4 py-2 hover:bg-purple-100">Burcliff</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\cragvale.html" class="block px-4 py-2 hover:bg-purple-100">Cragvale</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\cristalla.html" class="block px-4 py-2 hover:bg-purple-100">Cristalla</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\eighsea.html" class="block px-4 py-2 hover:bg-purple-100">Eighsea</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\locations\farewood.html" class="block px-4 py-2 hover:bg-purple-100">Farewood</a></li>
+                </ul>
+            </div>
+            <div class="relative group inline-block">
+                <a href="pages/races.html" class="hover:underline flex items-center">
+                    Races
+                    <i class="bi bi-caret-down-fill ml-1"></i>
+                </a>
+                <ul class="absolute left-0 mt-1 w-40 bg-gray-100 text-gray-900 rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto pointer-events-none transition-opacity duration-200 z-10">
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\anahdiel.html" class="block px-4 py-2 hover:bg-purple-100">Anah'diel (Snow Elves)</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\taldiel.html" class="block px-4 py-2 hover:bg-purple-100">Tal'diel (Mountain Elves)</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\varkir.html" class="block px-4 py-2 hover:bg-purple-100">Varkir</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\human.html" class="block px-4 py-2 hover:bg-purple-100">Human</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\cania.html" class="block px-4 py-2 hover:bg-purple-100">Cania</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\cristallan.html" class="block px-4 py-2 hover:bg-purple-100">Cristallan</a></li>
+                    <li><a href="C:\source\website\fantasy-wiki\pages\races\halfraces.html" class="block px-4 py-2 hover:bg-purple-100">Half Races</a></li>
+                </ul>
+            </div>
+            <div class="relative group inline-block">
+                <a href="pages/races.html" class="hover:underline flex items-center">
+                    Creatures
+                    <i class="bi bi-caret-down-fill ml-1"></i>
+                </a>
+                <ul class="absolute left-0 mt-1 w-40 bg-gray-100 text-gray-900 rounded shadow-lg opacity-0 group-hover:opacity-100 group-hover:pointer-events-auto pointer-events-none transition-opacity duration-200 z-10">
+                    <li><a href="pages/locations/dragonkin.html" class="block px-4 py-2 hover:bg-purple-100">Dragonkin</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="flex flex-1">
+        <main class="flex-1 p-8 bg-gray-100 bg-opacity-90 text-gray-900">
+            <h2 class="text-2xl font-bold">About</h2>
+            <p class="mt-2">Farwen is a high and dark fantasy fictional setting. Thematically, it is known for incorporating rich fantasy elements combined with some horror and thriller. The primary purpose of writing this world is so that I can expand on self-created species and build an intricate region around them, allowing characters to interact with one another naturally. This world is designed to nurture conflict with some more peaceful storytelling available in more rural locations.</p>
+            <h3 class="mt-4 text-xl font-semibold">Geography</h3>
+            <p>Farwen is a solitary, large island with a temperate climate, with the snowy Dragonspine Peaks to the North and the dunes of the Emberfall Desert to the South. In the centre of the island is where most grand civilisations thrive, surrounded by lush forests and fields that stretch for miles and miles. The island is bordered by pretty coastlines that are primarily craggy with very few sand beaches.
+            The island’s geography is strikingly diverse: the north is dominated by the imposing, snow-capped Dragonspine Peaks, whose icy rivers feed into the fertile valleys below. To the south, the golden sands of the Emberfall Desert stretch toward the horizon, dotted with hardy shrubs and ancient ruins half-buried by shifting dunes. Between these extremes, Farwen’s heartland is a patchwork of rolling meadows, dense woodlands, and winding rivers, providing rich soil for crops and shelter for countless villages.
+            The western coast is battered by fierce winds and high cliffs, where seabirds nest and waves crash against the rocks. In contrast, the eastern shore is gentler, with sheltered coves and tranquil inlets, though sandy beaches remain rare. Misty marshes and hidden lakes are scattered throughout the island, often shrouded in legend. Ancient forests, such as the Black Forest, are said to be home to spirits and creatures unseen in the wider world. This varied landscape shapes the cultures and livelihoods of Farwen’s people, from mountain clans and desert nomads to coastal traders and forest dwellers.</p>
+            <h3 class="mt-4 text-xl font-semibold">Lore</h3>
+            <p>Farwen as a civilisation has seen conflict for years</p>
+            <h3 class="mt-4 text-xl font-semibold">Current events</h3>
+            <ul class="mt-2 list-disc">
+                <li>Jarl Vidar II is the newly appointed ruler of Northshore, following his father's death. He rules with an iron fist.</li>
+                <li>The voices of the Old Gods have been heard by Draegyn, the Aspect of Destruction.</li>
+                <li></li>
+                <li>About</li>
+            </ul>
+            
+        </main>
+    </div>
+
+    <footer class="bg-purple-800 text-white text-center p-4 mt-auto shadow-inner">
+        <p>&copy; 2025 Fantasy Wiki. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
